@@ -1,0 +1,544 @@
+/*
+    页头样式开始
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    overflow-x: hidden;
+    margin: auto;
+}
+
+#nav-div{
+    width: 100%;
+    height: 30px;
+    background-color: #f4f4f4;
+    border: 1px solid #e5e5e5;
+    line-height: 30px;
+}
+.nav-div1{
+    width: 1070px;
+    margin: auto;
+}
+.nav-font{
+    padding-left: 3px;
+    color: #666;
+    font-size: 12px;
+}
+#text{
+    text-decoration: none;
+}
+.nav-div1-left{
+    float: left;
+}
+.nav-div1-right{
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+.nav-vic1-right-font{
+    color: #ff4040;
+    margin-right: 3px;
+}
+
+
+/*
+    下拉菜单
+*/
+#xialaliebiao{
+    width: 100%;
+    background-color: #fff;
+}
+.dropdown-menu a{
+    text-decoration:none; 
+    color:#000;
+    display:inline-block;
+}
+.dropdown-menu>a{ 
+    border:1px solid #000; 
+    padding:6px;
+}
+.dropdown-menu{
+    background:#fff;
+    width:100px;
+    margin-left: 320px;
+    list-style:none;
+    padding:0;
+    position: absolute;
+    top: 38px;
+    left:40px;
+    z-index: 999;
+	/*border:1px solid #aaa;*/
+	box-shadow:5px 5px 6px #000;
+	/*display:none;*/
+	height:0px;
+	overflow:hidden;
+	transition:all .5s linear;
+}
+/* .dropdown-menu:hover{
+    height:200px;
+} */
+.dropdown-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.dropdown-menu a{padding:6px; width:100px}
+.dropdown-menu a{padding-right: 20px;}
+.dropdown-menu li:hover{background:#ddd}
+.dropdown-menu a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+/*
+    页头样式结尾
+*/
+
+
+
+
+
+
+
+/*
+    导航条样式开始
+*/
+#nav2-div{
+    width: 100%;
+    background: #fff;
+}
+.nav2-div1{
+    width: 1070px;
+    height: 180px;
+    margin: auto;
+}
+.nav2-input{
+    width: 476px;
+    border-radius: 5%;
+    height: 38px;
+    line-height: 38px;
+    color: #333;
+    background:#fcfcfc;
+    border: 1px solid #E2E2E2;
+}
+.nav2-left{
+    float: left;
+}
+.nav2-right{
+    float: right;
+    margin-top: 60px;
+}
+.nav2-gouwuche{
+    text-decoration: none;
+    width: 120px;
+    height: 20px;
+    border-radius: 5%;
+    background: #fff;
+    text-align: center;
+    line-height: 20px;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #E2E2E2;
+    padding: 8px;
+    padding-left: 8px;
+    padding-right:8px;
+    margin-left: 20px;
+}
+.nav2-gouwuche:hover{
+    background: #F5F5F5;
+}
+#abiaoqian a{
+    text-decoration: none;
+    color: #aaa; 
+    margin-right: 10px;
+    line-height: 19px;
+    font-size: 14px;
+}
+#abiaoqian a:hover{
+    color: #333;
+}
+
+#hd_header_nav{
+    width: 1070px;
+    height: 38px;
+}
+#hd_header_nav{
+    list-style: none;
+    float: left;
+}
+#hd_header_nav a{
+    text-decoration: none;
+    color: #333;
+}
+#hd_header_nav ul li{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.leimu{
+    background: #ff4040;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+#hd_header_nav a:hover{
+    color: red;
+}
+
+/*
+    导航条样式结尾
+*/
+
+
+/*
+    二级菜单样式开始
+*/
+
+
+.erjicaidan{
+    width: 1070px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid red;
+    margin: auto;
+    position:absolute;
+    top: 214px;
+    left:415px;
+    display: none;
+}
+ .leimu:hover+.erjicaidan{
+    display: block;
+}
+/*二级菜单样式结尾*/
+
+
+
+
+
+
+/*中间部分样式开始*/
+#body_div{
+    width: 100%;
+    border-top: 2px solid red;
+}
+#body_div-1{
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+#body_div-1 a{
+    text-decoration: none;
+    color: #555;
+    line-height: 15px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+#body_div-2{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+.body_div_2-left{
+    float: left;
+}
+.body_div_2-left-top{
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+}
+.body_div_2-center{
+    float: left;
+    margin-left: 10px;
+}
+.body_div_2-center-1{
+    margin-top: 10px;
+    background-color: #FDE5E0;
+    border: 1px solid #FFCBC4;
+    height: 48px;
+    line-height: 48px;
+}
+.center-font{
+    color: #666;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.center-font-color{
+    color: #e60012;
+    font-size: 26px;
+    font-weight: bold;
+}
+.body_div_2-center-2{
+    font-size: 10px;
+    background-color: #fff4f2;
+    height: 30px;
+    line-height: 30px;
+}
+.body_div_2-left-bottom{
+    margin-top: 10px;
+
+}
+.body_div_2-left-bottom ul li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.body_div_2-center-3{
+    height: 56px;
+}
+.body_div_2-center-3 a{
+    text-decoration: none;
+}
+.body_div_2-center-3{
+    font-size: 13px;
+    color: #333;
+}
+
+.promotion_title_1{
+    float: left;
+    color: #666; 
+    padding-left:5px;
+    margin-top: 5px;
+}
+.promotion_title_2{
+    float: left;
+    margin-left: 20px;
+}
+.mansanjian{
+    margin-right: 10px;
+    color: #333;
+}
+.bianju{
+    margin-left: 150px;
+    color: #333;
+}
+.manzhe{
+    color: #fff;
+    background: #FF875A;
+}
+.body_div_2-center-4{
+    margin-top: 10px;
+    width: 588px;
+    height: 130px;
+}
+.guige_left{
+    float: left;
+    color: #666;
+}
+.guige_right{
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+.xinghao{
+    width: 95px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.xinghao:hover{
+    border: 1px solid red;
+}
+.xinghao1{
+    width: 47px;
+    height: 24px;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+.body_div_2-center-5{
+    font-size: 12px;
+}
+.body_div_2-center-6 a{
+    text-decoration: none;
+    background-color: #FF5C4D;
+    color: #fff;
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+.body_div_2-center-6 a:hover{
+    background-color: red;
+}
+
+#body_div-3{
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    /*background: red;*/
+}
+.body_div-3_left{
+    width: 210px;
+    height: 800px;
+}
+.body_div-3_left_1{
+    width: 210px;
+    height: 18px;
+    background: #F7F7F7;
+    text-align: center;
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #EEEEEE;
+}
+.body_div-3_left_1 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 18px;
+}
+.body_div-3_left_2-font-1{
+    color: #aaa;
+    font-size: 12px;
+}
+.pingjia{
+    text-decoration: none;
+    font-size: 12px;
+    color: #aaa;
+    width: 168px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid #EEEEEE;
+}
+.jiudianliuqi{
+    float: left;
+    color: #5191d3;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+}
+.shangpinpingjia{
+    float: right;
+}
+.dianpu{
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+.dianpu a{
+    text-decoration: none;
+    display: block;
+    background-color: #ff5c4d;
+    color: #fff;
+    border: 1px solid #fc3a29;
+    width: 82px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    font-family: "Microsoft Yahei";
+    border-radius:2px;
+    margin: auto;
+}
+.dianpu a:hover{
+    background-color: red;
+}
+
+
+/*中间部分样式结尾*/
+
+
+
+
+
+/*
+    页尾样式开始
+*/
+#Page-div{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+#Page-div1{
+    width: 1070px;
+    height: 90px;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+.Page-left-img{
+    float: left;
+}
+/* .Page-right-font{
+    float: left;
+} */
+.Page-right-font{
+    margin-left: 60px;
+}
+.div-1{
+    width: 250px;
+    float: left;
+}
+.Page-div1-font{
+    font-size: 14px;
+    color: #999;
+    line-height: 26px;
+}
+#Page-div2{
+    width: 1070px;
+    margin: auto;
+}
+.Page-dl1{
+    float: left;
+    width: 150px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.Page-dl1 dd{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color:#666;
+}
+
+
+#Page-div3{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#Page-div3 p a{
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+#Page-div3 p a:hover{
+    color: #ff4040;
+}
+.font-size{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/*
+    页尾样式结束
+*/

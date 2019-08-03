@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1号店注册页面</title>
+    <link rel="stylesheet" href="denglu.css">
+</head>
+<body>
+    <!---最大div-->
+    <div id="zuidadiv">
+         <!---页头div-->
+        <div id="nav">
+            <div id="nav1">
+                 <!---页头左小div-->
+                <div id="nav-leftdiv">
+                    <img src="image/loginlogo.jpg" alt="">
+                </div>
+                 <!---页头右小div-->
+                <div id="nav-rightdiv">
+                    <span class="nav-ziti">您好~欢迎光临1号店</span>
+                    <a href="#" class="nav-ziti1">请登录</a>
+                    <a href="#" class="nav-ziti2">帮助中心</a>
+                </div>
+            </div>
+        </div>
+         <!---页头div结尾-->
+
+
+        <!---中间div开始-->
+        <div id="zhongjian-div">
+            <div id="zhongjian-div1">
+                <div id="zhongjian-div1-left">
+                    <img src="image/login_pic.png" alt="">
+                </div>
+                <div id="zhongjian-div1-right">
+                    <p>
+                        <div id="login-xiaodiv1">
+                            1号店用户登录
+                        </div>
+                        <div id="login-xiaodiv2">
+                            注册新账号
+                        </div>
+                    </p>
+
+                    <p>
+                        <input type="text" id="UName" placeholder="用户名" class="input-width-height">
+                    </p>
+                    <span id="s1" style="color:red;"></span>
+
+                    <p>
+                        <input type="text" id="UPwd" placeholder="密码" class="input-width-height">
+                    </p>
+                    <span id="s2" style="color:red;"></span>
+
+                    <p>
+                        <div id="login-xiaodiv1">
+                           自动登录
+                        </div>
+                        <div id="login-xiaodiv2">
+                            忘记密码
+                        </div>
+                    </p>
+
+                    <p>
+                        <input type="button" value="登录" class="anniu" onclick="show()">
+                    </p>
+                    <p>更多合作网站账号登录</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!---中间div结束-->
+
+         <!---页尾div结束-->
+        <div id="yewei-div">
+            <div id="yewei-div1">
+                <span><a href="#" class="a">沪ICP备16050468号 </a></span>
+                <span><a href="#" class="a">沪B2-20170039 </a></span>
+                <span><a href="#" class="a">营业执照 </a></span>
+                <p class="yewei-ziti">Copyright © 1号店网上超市 2007-2018，All Rights Reserved</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>        
+        //判断密码不能为空和不能小于6位
+        /*
+        function UPwdquery(){
+            var u_UPwd=UPwd.value;
+            if(u_UPwd.length>0){
+                if(u_UPwd.length>=6){
+                    s2.innerHTML="密码格式正确";
+                }else{
+                    s2.innerHTML="密码不能小于6位";
+                }
+            }else{
+                s2.innerHTML="密码不能为空";
+            }
+        }
+        */
+
+
+        //登录代码
+        function show(){
+            //获取文本框输入的值
+            var u_UName=UName.value;
+            var u_UPwd=UPwd.value;
+            //创建异步对象
+            var xhr=new XMLHttpRequest();
+            //接收响应
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4 && xhr.status==200){
+                    var result=xhr.responseText;
+                    //提示登录成功
+                    console.log(result);
+                    if(result==1){
+                        alert("登录成功");
+                    }else{
+                        alert("登陆失败");
+                    }
+                }
+            }
+
+            //创建请求
+            xhr.open("post","http://127.0.0.1:8080/user/login",true);
+            //设置请求头信息
+            xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            //创建请求头信息
+            var formdata="UName="+u_UName+"&UPwd="+u_UPwd;
+            xhr.send(formdata);
+        }
+
+    </script>
+</body>
+</html>

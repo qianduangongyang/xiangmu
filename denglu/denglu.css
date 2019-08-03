@@ -1,0 +1,136 @@
+/*
+    页头样式开头
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    padding: 16px;
+    height: 50px;
+}
+#nav1{
+    width: 1200px;
+    margin:auto;
+   
+}
+#nav-leftdiv{
+    width: 600px;
+    float: left;
+}
+#nav-rightdiv{
+    width: 600px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.nav-ziti{
+    line-height: 18px;
+    font-family: "SimSun";
+    color: #999;
+    font-size: 12px;
+}
+.nav-ziti1{
+    color: #06c;
+    text-decoration: none;
+    font-size: 12px;
+}
+.nav-ziti2{
+    color: #999;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 12px;
+}
+/*
+    页头样式结尾
+*/
+
+/*---------------------------------------------------------------------------*/
+
+/*
+    中间样式开始
+*/
+#zhongjian-div{
+    width: 100%;
+    background: #fcfcfc;
+    border-bottom: 1px solid #f4f4f4;
+    padding-top:30px;
+}
+#zhongjian-div1{
+    width: 1200px;
+    margin:auto;
+    height: 500px;
+}
+#zhongjian-div1-left{
+    width: 600px;
+    float: left;
+}
+#zhongjian-div1-right{
+    width: 338px;
+    float: right;
+    background: #fff;
+    padding: 50px;
+}
+#login-xiaodiv1{
+    float: left;
+    font-size:12px;
+    color: #999;
+}
+#login-xiaodiv2{
+    float: right;
+    font-size:12px;
+    color: #999;
+}
+.input-width-height{
+    width: 328px;
+    height: 50px;
+    border: 1px solid #dedede;
+    margin: 10px;
+}
+.anniu{
+    width: 330px;
+    height: 52px;
+    background: #ff3c3c;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    color: #feffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+#zhongjian-div p{
+    font-size:12px;
+    color: #999;
+}
+/*
+    中间样式结尾
+*/
+
+
+/*---------------------------------------------------------------------------*/
+/*
+    页尾样式开始
+*/
+#yewei-div{
+    width: 100%;
+    padding: 20px;
+}
+#yewei-div1{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+.a:hover{
+    color: #d72226;
+}
+.yewei-ziti{
+    font-size: 12px;
+}
